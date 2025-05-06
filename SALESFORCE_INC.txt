@@ -1,0 +1,10 @@
+public class IncrementFunction {
+
+    // Static method so it can be called without creating an object
+    public static Integer incrementByTen(Integer inputNumber) {
+        return inputNumber + 10;
+    }
+}
+
+Integer result = IncrementFunction.incrementByTen(25);
+System.debug('Result after incrementing by 10: ' + result);
